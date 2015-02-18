@@ -7,53 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5F7FADA81A930DEA00CEF622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADA71A930DEA00CEF622 /* main.m */; };
-		5F7FADAB1A930DEA00CEF622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADAA1A930DEA00CEF622 /* AppDelegate.m */; };
-		5F7FADAE1A930DEA00CEF622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADAD1A930DEA00CEF622 /* ViewController.m */; };
-		5F7FADB11A930DEA00CEF622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FADAF1A930DEA00CEF622 /* Main.storyboard */; };
-		5F7FADB31A930DEA00CEF622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FADB21A930DEA00CEF622 /* Images.xcassets */; };
-		5F7FADB61A930DEA00CEF622 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FADB41A930DEA00CEF622 /* LaunchScreen.xib */; };
-		5F7FADC21A930DEA00CEF622 /* KYBezierBounceViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADC11A930DEA00CEF622 /* KYBezierBounceViewTests.m */; };
-		5F7FADCD1A93102F00CEF622 /* BounceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADCC1A93102F00CEF622 /* BounceView.m */; };
+		5F7FADED1A944CD000CEF622 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADE01A944CCF00CEF622 /* AppDelegate.m */; };
+		5F7FADEE1A944CD000CEF622 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FADE21A944CCF00CEF622 /* LaunchScreen.xib */; };
+		5F7FADEF1A944CD000CEF622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FADE41A944CCF00CEF622 /* Main.storyboard */; };
+		5F7FADF11A944CD000CEF622 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FADE81A944CCF00CEF622 /* Images.xcassets */; };
+		5F7FADF31A944CD000CEF622 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADEA1A944CCF00CEF622 /* main.m */; };
+		5F7FADF41A944CD000CEF622 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADEC1A944CD000CEF622 /* ViewController.m */; };
+		5F7FADF81A944D1800CEF622 /* BounceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7FADF71A944D1800CEF622 /* BounceView.m */; };
+		5F7FADFA1A944EC300CEF622 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5F7FADF91A944EC300CEF622 /* Info.plist */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		5F7FADBC1A930DEA00CEF622 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5F7FAD9A1A930DEA00CEF622 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5F7FADA11A930DEA00CEF622;
-			remoteInfo = KYBezierBounceView;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5F7FADA21A930DEA00CEF622 /* KYBezierBounceView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KYBezierBounceView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F7FADA61A930DEA00CEF622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F7FADA71A930DEA00CEF622 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5F7FADA91A930DEA00CEF622 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5F7FADAA1A930DEA00CEF622 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5F7FADAC1A930DEA00CEF622 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5F7FADAD1A930DEA00CEF622 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5F7FADB01A930DEA00CEF622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5F7FADB21A930DEA00CEF622 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5F7FADB51A930DEA00CEF622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		5F7FADBB1A930DEA00CEF622 /* KYBezierBounceViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KYBezierBounceViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F7FADC01A930DEA00CEF622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5F7FADC11A930DEA00CEF622 /* KYBezierBounceViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KYBezierBounceViewTests.m; sourceTree = "<group>"; };
-		5F7FADCB1A93102F00CEF622 /* BounceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceView.h; sourceTree = "<group>"; };
-		5F7FADCC1A93102F00CEF622 /* BounceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceView.m; sourceTree = "<group>"; };
+		5F7FADDF1A944CCF00CEF622 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = KYBezierBounceViewDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		5F7FADE01A944CCF00CEF622 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = KYBezierBounceViewDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		5F7FADE31A944CCF00CEF622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		5F7FADE51A944CCF00CEF622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		5F7FADE81A944CCF00CEF622 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = KYBezierBounceViewDemo/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		5F7FADEA1A944CCF00CEF622 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KYBezierBounceViewDemo/main.m; sourceTree = SOURCE_ROOT; };
+		5F7FADEB1A944CCF00CEF622 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = KYBezierBounceViewDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		5F7FADEC1A944CD000CEF622 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = KYBezierBounceViewDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		5F7FADF61A944D1800CEF622 /* BounceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BounceView.h; sourceTree = "<group>"; };
+		5F7FADF71A944D1800CEF622 /* BounceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BounceView.m; sourceTree = "<group>"; };
+		5F7FADF91A944EC300CEF622 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5F7FAD9F1A930DEA00CEF622 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F7FADB81A930DEA00CEF622 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -67,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				5F7FADA41A930DEA00CEF622 /* KYBezierBounceView */,
-				5F7FADBE1A930DEA00CEF622 /* KYBezierBounceViewTests */,
 				5F7FADA31A930DEA00CEF622 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				5F7FADA21A930DEA00CEF622 /* KYBezierBounceView.app */,
-				5F7FADBB1A930DEA00CEF622 /* KYBezierBounceViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,15 +62,15 @@
 		5F7FADA41A930DEA00CEF622 /* KYBezierBounceView */ = {
 			isa = PBXGroup;
 			children = (
-				5F7FADA91A930DEA00CEF622 /* AppDelegate.h */,
-				5F7FADAA1A930DEA00CEF622 /* AppDelegate.m */,
-				5F7FADAC1A930DEA00CEF622 /* ViewController.h */,
-				5F7FADAD1A930DEA00CEF622 /* ViewController.m */,
-				5F7FADAF1A930DEA00CEF622 /* Main.storyboard */,
-				5F7FADCB1A93102F00CEF622 /* BounceView.h */,
-				5F7FADCC1A93102F00CEF622 /* BounceView.m */,
-				5F7FADB21A930DEA00CEF622 /* Images.xcassets */,
-				5F7FADB41A930DEA00CEF622 /* LaunchScreen.xib */,
+				5F7FADF51A944D1800CEF622 /* BounceView */,
+				5F7FADDF1A944CCF00CEF622 /* AppDelegate.h */,
+				5F7FADE01A944CCF00CEF622 /* AppDelegate.m */,
+				5F7FADE41A944CCF00CEF622 /* Main.storyboard */,
+				5F7FADEB1A944CCF00CEF622 /* ViewController.h */,
+				5F7FADEC1A944CD000CEF622 /* ViewController.m */,
+				5F7FADE81A944CCF00CEF622 /* Images.xcassets */,
+				5F7FADE21A944CCF00CEF622 /* LaunchScreen.xib */,
+				5F7FADF91A944EC300CEF622 /* Info.plist */,
 				5F7FADA51A930DEA00CEF622 /* Supporting Files */,
 			);
 			path = KYBezierBounceView;
@@ -101,28 +79,19 @@
 		5F7FADA51A930DEA00CEF622 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5F7FADA61A930DEA00CEF622 /* Info.plist */,
-				5F7FADA71A930DEA00CEF622 /* main.m */,
+				5F7FADEA1A944CCF00CEF622 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5F7FADBE1A930DEA00CEF622 /* KYBezierBounceViewTests */ = {
+		5F7FADF51A944D1800CEF622 /* BounceView */ = {
 			isa = PBXGroup;
 			children = (
-				5F7FADC11A930DEA00CEF622 /* KYBezierBounceViewTests.m */,
-				5F7FADBF1A930DEA00CEF622 /* Supporting Files */,
+				5F7FADF61A944D1800CEF622 /* BounceView.h */,
+				5F7FADF71A944D1800CEF622 /* BounceView.m */,
 			);
-			path = KYBezierBounceViewTests;
-			sourceTree = "<group>";
-		};
-		5F7FADBF1A930DEA00CEF622 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				5F7FADC01A930DEA00CEF622 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
+			path = BounceView;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -144,24 +113,6 @@
 			productReference = 5F7FADA21A930DEA00CEF622 /* KYBezierBounceView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5F7FADBA1A930DEA00CEF622 /* KYBezierBounceViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 5F7FADC81A930DEA00CEF622 /* Build configuration list for PBXNativeTarget "KYBezierBounceViewTests" */;
-			buildPhases = (
-				5F7FADB71A930DEA00CEF622 /* Sources */,
-				5F7FADB81A930DEA00CEF622 /* Frameworks */,
-				5F7FADB91A930DEA00CEF622 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				5F7FADBD1A930DEA00CEF622 /* PBXTargetDependency */,
-			);
-			name = KYBezierBounceViewTests;
-			productName = KYBezierBounceViewTests;
-			productReference = 5F7FADBB1A930DEA00CEF622 /* KYBezierBounceViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -173,10 +124,6 @@
 				TargetAttributes = {
 					5F7FADA11A930DEA00CEF622 = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					5F7FADBA1A930DEA00CEF622 = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = 5F7FADA11A930DEA00CEF622;
 					};
 				};
 			};
@@ -194,7 +141,6 @@
 			projectRoot = "";
 			targets = (
 				5F7FADA11A930DEA00CEF622 /* KYBezierBounceView */,
-				5F7FADBA1A930DEA00CEF622 /* KYBezierBounceViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -204,16 +150,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7FADB11A930DEA00CEF622 /* Main.storyboard in Resources */,
-				5F7FADB61A930DEA00CEF622 /* LaunchScreen.xib in Resources */,
-				5F7FADB31A930DEA00CEF622 /* Images.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F7FADB91A930DEA00CEF622 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				5F7FADEE1A944CD000CEF622 /* LaunchScreen.xib in Resources */,
+				5F7FADEF1A944CD000CEF622 /* Main.storyboard in Resources */,
+				5F7FADF11A944CD000CEF622 /* Images.xcassets in Resources */,
+				5F7FADFA1A944EC300CEF622 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,47 +164,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F7FADAE1A930DEA00CEF622 /* ViewController.m in Sources */,
-				5F7FADAB1A930DEA00CEF622 /* AppDelegate.m in Sources */,
-				5F7FADCD1A93102F00CEF622 /* BounceView.m in Sources */,
-				5F7FADA81A930DEA00CEF622 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5F7FADB71A930DEA00CEF622 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5F7FADC21A930DEA00CEF622 /* KYBezierBounceViewTests.m in Sources */,
+				5F7FADF81A944D1800CEF622 /* BounceView.m in Sources */,
+				5F7FADF41A944CD000CEF622 /* ViewController.m in Sources */,
+				5F7FADF31A944CD000CEF622 /* main.m in Sources */,
+				5F7FADED1A944CD000CEF622 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5F7FADBD1A930DEA00CEF622 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 5F7FADA11A930DEA00CEF622 /* KYBezierBounceView */;
-			targetProxy = 5F7FADBC1A930DEA00CEF622 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		5F7FADAF1A930DEA00CEF622 /* Main.storyboard */ = {
+		5F7FADE21A944CCF00CEF622 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5F7FADB01A930DEA00CEF622 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5F7FADB41A930DEA00CEF622 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5F7FADB51A930DEA00CEF622 /* Base */,
+				5F7FADE31A944CCF00CEF622 /* Base */,
 			);
 			name = LaunchScreen.xib;
-			sourceTree = "<group>";
+			path = KYBezierBounceViewDemo/Base.lproj;
+			sourceTree = SOURCE_ROOT;
+		};
+		5F7FADE41A944CCF00CEF622 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5F7FADE51A944CCF00CEF622 /* Base */,
+			);
+			name = Main.storyboard;
+			path = KYBezierBounceViewDemo/Base.lproj;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXVariantGroup section */
 
@@ -350,7 +276,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Xinyu Li (XWYND9KE57)";
-				INFOPLIST_FILE = KYBezierBounceView/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,43 +286,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = KYBezierBounceView/Info.plist;
+				INFOPLIST_FILE = Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		5F7FADC91A930DEA00CEF622 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = KYBezierBounceViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYBezierBounceView.app/KYBezierBounceView";
-			};
-			name = Debug;
-		};
-		5F7FADCA1A930DEA00CEF622 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = KYBezierBounceViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KYBezierBounceView.app/KYBezierBounceView";
 			};
 			name = Release;
 		};
@@ -419,14 +311,7 @@
 				5F7FADC71A930DEA00CEF622 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		5F7FADC81A930DEA00CEF622 /* Build configuration list for PBXNativeTarget "KYBezierBounceViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5F7FADC91A930DEA00CEF622 /* Debug */,
-				5F7FADCA1A930DEA00CEF622 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -94,26 +94,19 @@
     }
     
     
-    if (gr.state == UIGestureRecognizerStateBegan) {
-        if (amountX >= 0) {
-            leftBubble = [[UIView alloc]init];
-            leftBubble.center = CGPointMake(-100, self.bounds.size.height / 2);
-            leftBubble.bounds = CGRectMake(0, 0, 100, 100);
-            leftBubble.backgroundColor = [UIColor redColor];
-            leftBubble.layer.cornerRadius = 50;
-            [self addSubview:leftBubble];
-        }else{
-            righBubble = [[UIView alloc]init];
-            righBubble.center = CGPointMake(self.bounds.size.width + 100, self.bounds.size.height / 2);
-            righBubble.bounds = CGRectMake(0, 0, 100, 100);
-            righBubble.backgroundColor = [UIColor blueColor];
-            righBubble.layer.cornerRadius = 50;
-            [self addSubview:righBubble];
-        }
-    }
     
     if (gr.state == UIGestureRecognizerStateChanged){
         if (amountX >= 0) {
+            
+            if (leftBubble == nil) {
+                leftBubble = [[UIView alloc]init];
+                leftBubble.center = CGPointMake(-100, self.bounds.size.height / 2);
+                leftBubble.bounds = CGRectMake(0, 0, 100, 100);
+                leftBubble.backgroundColor = [UIColor redColor];
+                leftBubble.layer.cornerRadius = 50;
+                [self addSubview:leftBubble];
+            }
+            
             //向右滑 ———— 转发
             [self cancelComment];
             self.verticalLineLayer.path = [self getLeftLinePathWithAmount:amountX];
@@ -128,6 +121,14 @@
                 [self animateLeftLineReturnFrom:amountX];
             }
         }else{
+            if (righBubble == nil) {
+                righBubble = [[UIView alloc]init];
+                righBubble.center = CGPointMake(self.bounds.size.width + 100, self.bounds.size.height / 2);
+                righBubble.bounds = CGRectMake(0, 0, 100, 100);
+                righBubble.backgroundColor = [UIColor blueColor];
+                righBubble.layer.cornerRadius = 50;
+                [self addSubview:righBubble];
+            }
             
             //向左滑 ———— 评论
             [self cancelPost];
@@ -157,9 +158,7 @@
             [self removeGestureRecognizer:gr];
             [self animateRightLineReturnFrom:abs(amountX)];
         }
-        
     }
-    
 }
 
 -(void)cancelPost{
