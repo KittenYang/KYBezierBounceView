@@ -62,7 +62,7 @@
     [verticalLine moveToPoint:topPoint];
     [verticalLine addQuadCurveToPoint:bottomPoint controlPoint:midControlPoint];
     [verticalLine closePath];
-    
+
     return [verticalLine CGPath];
 }
 
