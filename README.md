@@ -12,3 +12,6 @@ Just `#import "BounceView.h"` or use xib/storyboard.
 More details you can See the project demo. 
 
 Enjoy!
+
+
+Intro:[http://kittenyang.com/cadisplaylinkanduibezierpath/](http://kittenyang.com/cadisplaylinkanduibezierpath/)
