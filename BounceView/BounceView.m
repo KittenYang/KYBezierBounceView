@@ -185,7 +185,16 @@
     // ----- ANIMATION WITH BOUNCE
     CAKeyframeAnimation *morph = [CAKeyframeAnimation animationWithKeyPath:@"path"];
     morph.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
-    NSArray *values = @[(id) [self getLeftLinePathWithAmount:positionX],(id) [self getLeftLinePathWithAmount:-(positionX * 0.9)],(id) [self getLeftLinePathWithAmount:(positionX * 0.6)],(id) [self getLeftLinePathWithAmount:-(positionX * 0.4)],(id) [self getLeftLinePathWithAmount:(positionX * 0.25)],(id) [self getLeftLinePathWithAmount:-(positionX * 0.15)],(id) [self getLeftLinePathWithAmount:(positionX * 0.05)],(id) [self getLeftLinePathWithAmount:0.0]];
+    NSArray *values = @[
+                        (id) [self getLeftLinePathWithAmount:positionX],
+                        (id) [self getLeftLinePathWithAmount:-(positionX * 0.9)],
+                        (id) [self getLeftLinePathWithAmount:(positionX * 0.6)],
+                        (id) [self getLeftLinePathWithAmount:-(positionX * 0.4)],
+                        (id) [self getLeftLinePathWithAmount:(positionX * 0.25)],
+                        (id) [self getLeftLinePathWithAmount:-(positionX * 0.15)],
+                        (id) [self getLeftLinePathWithAmount:(positionX * 0.05)],
+                        (id) [self getLeftLinePathWithAmount:0.0]
+                        ];
     morph.values = values;
     morph.duration = 0.5;
     morph.removedOnCompletion = NO;
@@ -199,7 +208,16 @@
     // ----- ANIMATION WITH BOUNCE
     CAKeyframeAnimation *morph = [CAKeyframeAnimation animationWithKeyPath:@"path"];
     morph.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseIn];
-    NSArray *values = @[(id) [self getRightLinePathWithAmount:positionX],(id) [self getRightLinePathWithAmount:-(positionX * 0.9)],(id) [self getRightLinePathWithAmount:(positionX * 0.6)],(id) [self getRightLinePathWithAmount:-(positionX * 0.4)],(id) [self getRightLinePathWithAmount:(positionX * 0.25)],(id) [self getRightLinePathWithAmount:-(positionX * 0.15)],(id) [self getRightLinePathWithAmount:(positionX * 0.05)],(id) [self getRightLinePathWithAmount:0.0]];
+    NSArray *values = @[
+                        (id) [self getRightLinePathWithAmount:positionX],
+                        (id) [self getRightLinePathWithAmount:-(positionX * 0.9)],
+                        (id) [self getRightLinePathWithAmount:(positionX * 0.6)],
+                        (id) [self getRightLinePathWithAmount:-(positionX * 0.4)],
+                        (id) [self getRightLinePathWithAmount:(positionX * 0.25)],
+                        (id) [self getRightLinePathWithAmount:-(positionX * 0.15)],
+                        (id) [self getRightLinePathWithAmount:(positionX * 0.05)],
+                        (id) [self getRightLinePathWithAmount:0.0]
+                        ];
     morph.values = values;
     morph.duration = 0.5;
     morph.removedOnCompletion = NO;
