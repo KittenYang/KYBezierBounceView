@@ -46,7 +46,6 @@
 
 - (void) addPanGesture {
     self.sgr = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(handleSlide:)];
-    self.sgr.delegate = self;
     [self addGestureRecognizer:self.sgr];
 }
 
@@ -132,9 +131,9 @@
             
             //向左滑 ———— 评论
             [self cancelPost];
-            self.verticalLineLayer.path = [self getRightLinePathWithAmount:abs(amountX)];
+            self.verticalLineLayer.path = [self getRightLinePathWithAmount:fabs(amountX)];
             righBubble.frame = CGRectMake(self.bounds.size.width  + amountX*0.4, righBubble.frame.origin.y, 100, 100);
-            if (abs(amountX) > self.bounds.size.width / 2) {
+            if (fabs(amountX) > self.bounds.size.width / 2) {
                 
                 [UIView animateWithDuration:0.5f delay:0.0f usingSpringWithDamping:0.6f initialSpringVelocity:0.0 options:UIViewAnimationOptionCurveEaseOut animations:^{
                     righBubble.center = CGPointMake(self.bounds.size.width / 2, self.bounds.size.height / 2);
@@ -143,7 +142,7 @@
                 }];
                 
                 [self removeGestureRecognizer:gr];
-                [self animateRightLineReturnFrom:abs(amountX)];
+                [self animateRightLineReturnFrom:fabs(amountX)];
             }
         }
     }
@@ -156,7 +155,7 @@
             [self animateLeftLineReturnFrom:amountX];
         }else{
             [self removeGestureRecognizer:gr];
-            [self animateRightLineReturnFrom:abs(amountX)];
+            [self animateRightLineReturnFrom:fabs(amountX)];
         }
     }
 }

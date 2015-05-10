@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "KYBezierBounceView"
-  s.version      = "1.5.1"
+  s.version      = "1.6.1"
   s.summary      = "实现手势控制贝塞尔曲线的左右菜单并带有重力反弹效果"
 
   s.description  = <<-DESC
